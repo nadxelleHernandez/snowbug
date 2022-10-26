@@ -12,7 +12,6 @@ SNOWMAN_IMAGE = [
     '-----------',
 ]
 
-
 def snowman(snowman_word):
     snowman_letters_guessed = build_word_dict(snowman_word)
     wrong_letters = []
